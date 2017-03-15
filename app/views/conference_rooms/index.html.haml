@@ -1,0 +1,17 @@
+= content_for :title, "Conference rooms"
+.container
+  .row
+    .col-md-12.mt-3
+      %table.table.table-bordered
+        %thead.thead-inverse
+          %th Area
+          %th Room Name
+        %tbody
+          - conference_rooms.each do |area|
+            %tr.table-info
+              %td= area[:location].capitalize
+              %td
+            - area[:rooms].each do |room|
+              %tr
+                %td
+                %td= room.capitalize

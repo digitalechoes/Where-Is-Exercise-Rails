@@ -22,7 +22,7 @@ class ConferenceRoom
       area ? "#{query} is located #{area[:location]}" : "somewhere, but I don't know where"
   end
 
-  def list_rooms
+  def self.list_rooms
     conference_rooms = CONFERENCE_ROOMS_AREAS.flat_map{ |area| area[:rooms] }.map(&:titleize)
     # Limits each set to 160 charactes, which is the SMS limit
     char_limit_regex = /[\w, =]{1,160}(?:,|$)/

@@ -1170,3 +1170,1129 @@ Processing by MainController#index as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"JfCkTAj7s70/wE/tBu30J3hd5MVdkttWfBxoOv4jRnBU/rF4+fxgjh8mYk4tqBxYX5nEbYPof/pXhUrn8Mo93A==", "query"=>"boo", "commit"=>"Submit"}
   Rendered main/index.html.haml within layouts/application (0.8ms)
 Completed 200 OK in 67ms (Views: 66.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 00:59:05 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (11.9ms)
+Completed 200 OK in 1038ms (Views: 1020.6ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 00:59:06 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 44.3ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 00:59:06 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 00:59:16 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for ConferenceRoomsController):
+  actionpack (4.2.4) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/carebear/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/carebear/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/carebear/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:07:02 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Invalid tag: "% content_for :title, "Title for specific page"".):
+    1: % content_for :title, "Title for specific page"
+    2: .container
+    3:   .row
+    4:     .col-md-12
+  app/views/conference_rooms/index.html.haml:1
+  app/controllers/conference_rooms_controller.rb:4:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.0ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:07:10 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 116ms (Views: 115.7ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:11:37 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 139ms (Views: 138.6ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:11:39 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 40.8ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:11:49 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 48.2ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:12:36 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 121ms (Views: 120.8ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:15:24 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 122ms (Views: 121.9ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:16:27 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 45.1ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:20:53 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 199ms (Views: 197.3ms)
+
+
+Started GET "/assets/application.self-25b4b6c96a068d70d56206236b558e61271962bba6aec46e2de0d60a7c7ab92c.css?body=1" for ::1 at 2017-03-15 01:20:53 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:20:53 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 01:20:53 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 01:20:53 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 01:20:53 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 01:20:53 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:20:54 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:21:50 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 166ms (Views: 165.7ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/application.self-25b4b6c96a068d70d56206236b558e61271962bba6aec46e2de0d60a7c7ab92c.css?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:21:50 -0500
+
+
+Started GET "/" for ::1 at 2017-03-15 01:23:22 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 120ms (Views: 119.7ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:23:30 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 49ms (Views: 48.6ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:24:08 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 58ms (Views: 58.0ms)
+
+
+Started GET "/assets/application.self-25b4b6c96a068d70d56206236b558e61271962bba6aec46e2de0d60a7c7ab92c.css?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:24:08 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:24:11 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 45.8ms)
+
+
+Started GET "/assets/application.self-25b4b6c96a068d70d56206236b558e61271962bba6aec46e2de0d60a7c7ab92c.css?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:24:11 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:26:05 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 41.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/application.self-25b4b6c96a068d70d56206236b558e61271962bba6aec46e2de0d60a7c7ab92c.css?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:26:05 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:36:53 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 608ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/carebear/Projects/Where-Is-Exercise-Rails/app/assets/images
+  /Users/carebear/Projects/Where-Is-Exercise-Rails/app/assets/javascripts
+  /Users/carebear/Projects/Where-Is-Exercise-Rails/app/assets/stylesheets
+  /Users/carebear/Projects/Where-Is-Exercise-Rails/vendor/assets/javascripts
+  /Users/carebear/Projects/Where-Is-Exercise-Rails/vendor/assets/stylesheets
+  /Users/carebear/.rvm/gems/ruby-2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/carebear/.rvm/gems/ruby-2.2.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/carebear/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.alpha6/assets/stylesheets
+  /Users/carebear/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.alpha6/assets/javascripts
+  /Users/carebear/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.alpha6/assets/stylesheets):
+    4:   <title> <%= content_for?(:title) ? content_for(:title) : "TcsWhereis" %> </title>
+    5: 
+    6: 
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    9:   <%= csrf_meta_tags %>
+   10: </head>
+  app/assets/stylesheets/application.scss:17
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2994918029106859381_70317469587800'
+  app/controllers/conference_rooms_controller.rb:4:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.8ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:38:08 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 7694ms (Views: 7692.6ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:38:16 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:39:19 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 123ms (Views: 122.4ms)
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:39:19 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:41:34 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 123ms (Views: 122.3ms)
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:41:34 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:43:42 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 204ms (Views: 201.0ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:44:01 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 149ms (Views: 147.5ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:44:02 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:44:30 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 118ms (Views: 117.4ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:44:30 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:44:40 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 39ms (Views: 39.0ms)
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:44:40 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:44:49 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 105ms (Views: 103.5ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:44:49 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:44:49 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:44:49 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:44:49 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:44:49 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:44:49 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:44:50 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:45:28 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/carebear/Projects/Where-Is-Exercise-Rails/app/views/conference_rooms/index.html.haml:14: syntax error, unexpected keyword_do_block, expecting keyword_end
+ area[:rooms] do |room|
+                ^
+/Users/carebear/Projects/Where-Is-Exercise-Rails/app/views/conference_rooms/index.html.haml:19: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/conference_rooms/index.html.haml:14: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/conference_rooms/index.html.haml:19: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/controllers/conference_rooms_controller.rb:4:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.4ms)
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:45:49 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 157ms (Views: 155.9ms)
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:45:49 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:46:33 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 142ms (Views: 138.4ms)
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:46:33 -0500
+
+
+Started GET "/conference_rooms" for ::1 at 2017-03-15 01:46:50 -0500
+Processing by ConferenceRoomsController#index as HTML
+  Rendered conference_rooms/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 43ms (Views: 42.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/application.self-c058ac3edbb1fd6817a21ad54d9c9494d4fe5170961a5a1733a6f0ad5b69879d.css?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 01:46:50 -0500
