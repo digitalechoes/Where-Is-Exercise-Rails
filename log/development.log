@@ -825,3 +825,348 @@ Processing by MainController#index as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"EkdOfzktU2B6o0zpNSz8FkFWOX/9qnBbjF+sP5Yj20s98EjATMVTomh3sJsYHiC7+yDVX+NmDYOcOkz1CI9ZVw==", "query"=>"air of excitement", "commit"=>"Submit"}
   Rendered main/index.html.haml within layouts/application (0.8ms)
 Completed 200 OK in 45ms (Views: 44.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 16:07:14 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 4294ms (Views: 4280.7ms)
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/application.self-25b4b6c96a068d70d56206236b558e61271962bba6aec46e2de0d60a7c7ab92c.css?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 16:07:19 -0500
+
+
+Started POST "/" for ::1 at 2017-03-15 16:43:43 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wAEcKPb8Hr//X+r6Dri3J0huMbvxjED4I/UNoUyaU8ixDwkcB/vNjN+5x1kl/V9Yb6oREy/25FQIbC98QnMoZA==", "query"=>"BOB", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 271ms (Views: 257.5ms)
+
+
+Started GET "/assets/application.self-25b4b6c96a068d70d56206236b558e61271962bba6aec46e2de0d60a7c7ab92c.css?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2017-03-15 16:43:44 -0500
+
+
+Started GET "/" for ::1 at 2017-03-15 22:39:31 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 941ms (Views: 925.2ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:39:41 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Q4HvSnTOUCp/WRDGJKNKKxNTVf7004hOFjX829CrnqYABKJ2NTqc4kbSeAz12VXi4lt/yWp6o0TwfUuYavV1g==", "query"=>"'fill their baskets'", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `reply_for' for #<MainController:0x007fadf295e348>):
+  app/controllers/main_controller.rb:6:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.5ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:40:26 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Q4HvSnTOUCp/WRDGJKNKKxNTVf7004hOFjX829CrnqYABKJ2NTqc4kbSeAz12VXi4lt/yWp6o0TwfUuYavV1g==", "query"=>"'fill their baskets'", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 4ms
+
+NameError (uninitialized constant MainController::ConferenceRoom):
+  app/controllers/main_controller.rb:6:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (25.4ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.6ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:43:29 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Q4HvSnTOUCp/WRDGJKNKKxNTVf7004hOFjX829CrnqYABKJ2NTqc4kbSeAz12VXi4lt/yWp6o0TwfUuYavV1g==", "query"=>"fill their baskets", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 14ms
+
+NameError (uninitialized constant MainController::ConferenceRoom):
+  app/controllers/main_controller.rb:6:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.7ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:44:02 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Q4HvSnTOUCp/WRDGJKNKKxNTVf7004hOFjX829CrnqYABKJ2NTqc4kbSeAz12VXi4lt/yWp6o0TwfUuYavV1g==", "query"=>"fill their baskets", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant MainController::ConferenceRoom):
+  app/controllers/main_controller.rb:6:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 22:52:43 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 785ms (Views: 774.2ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:53:06 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TcicLHFqzb5vIu9ZbgiPkUNAz5vy5NL01aO8ITCZZzY8xokYgG0ejU/EwvpFTWfuZITvMyyedlj+Op78PnAcmg==", "query"=>"fill their baskets", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 109ms (Views: 108.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 22:55:54 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 132ms (Views: 130.7ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:55:59 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MvW3ORyo2riApi3X3Nd8QZnI4MTC6YOx+ic+VWLB4hFD+6IN7a8Ji6BAAHT3kpQ+vgzAbByTJx3RvhyIbCiZvQ==", "query"=>"fill their baskets", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 87ms (Views: 86.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 22:56:01 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 45.9ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:56:05 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cxOn9MGWNewHsxh3Z642FJFakYUv9yHCRvXlZlpTEqoCHbLAMJHm3ydVNdRM695rtp6xLfGNhW5tbMe7VLppBg==", "query"=>"fill their baskets", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 71ms (Views: 69.8ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 22:56:20 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 736ms (Views: 723.5ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:56:25 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"64Ynyo6Muz+dl4qJ+lkwTzal3Nyz5jfRiQ/dTxSvIE+aiDL+f4toDL1xpyrRHNgwEWH8dG2ck32ilv+SGkZb4w==", "query"=>"fill their baskets", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant MainController::ConferenceRoom):
+  app/controllers/main_controller.rb:6:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.7ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:59:03 -0500
+
+LoadError (cannot load such file -- services/ConferenceRoom):
+  app/controllers/main_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.8ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:59:08 -0500
+
+LoadError (cannot load such file -- services/ConferenceRoom):
+  app/controllers/main_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.2ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:59:22 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"64Ynyo6Muz+dl4qJ+lkwTzal3Nyz5jfRiQ/dTxSvIE+aiDL+f4toDL1xpyrRHNgwEWH8dG2ck32ilv+SGkZb4w==", "query"=>"fill their baskets", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 148ms (Views: 147.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 22:59:26 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 57.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 22:59:29 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 71ms (Views: 70.2ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 22:59:32 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QxKtjIaVYi9Y7O2ZVyTgTFUhc8TeOjIJ4EETIHg9U1syHLi4d5KxHHgKwDp8YQgzcuVTbABAlqXL2DH9dtQo9w==", "query"=>"fill their baskets", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 43.6ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 23:02:35 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 41.0ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 23:02:39 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LA1YQ2q0K04TBmJZEd/Ord7SlxxOrtmNGXP2Ku13gCFdA013m7P4fTPgT/o6mibS+Ra3tJDUfSEy6tT34577jQ==", "query"=>"fill their baskets", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 23:03:05 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Atwnixm6CgkWRWFkktHp/HW3wtuLcNgYthB/W3FfYWdBWWq3WE7GwS/OCa5Dq/Y1hL/o7BXZ8xJQWMgYywGKQ==", "query"=>"boo", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 17ms
+
+NameError (uninitialized constant MainController::ConferenceRoom):
+  app/controllers/main_controller.rb:6:in `index'
+
+
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.7ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/carebear/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-15 23:04:02 -0500
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 743ms (Views: 725.8ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 23:04:06 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPPDv/tqq66x8Vqb+CJ8Ehyf34uKEoETliAPZP2qiixV/daLCm14nZEXdzjTZ5RtO1v/I1RoJb+9uS2580PxgA==", "query"=>"fill their baskets", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 51.9ms)
+
+
+Started POST "/" for ::1 at 2017-03-15 23:04:10 -0500
+Processing by MainController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JfCkTAj7s70/wE/tBu30J3hd5MVdkttWfBxoOv4jRnBU/rF4+fxgjh8mYk4tqBxYX5nEbYPof/pXhUrn8Mo93A==", "query"=>"boo", "commit"=>"Submit"}
+  Rendered main/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 66.7ms)
