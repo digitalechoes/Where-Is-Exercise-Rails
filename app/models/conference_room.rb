@@ -23,7 +23,7 @@ class ConferenceRoom
   end
 
   def self.list_rooms
-    conference_rooms = CONFERENCE_ROOMS_AREAS.flat_map{ |area| area[:rooms] }.map(&:titleize)
+    conference_rooms = CONFERENCE_ROOMS_AREAS.flat_map{ |area| area[:rooms] }.map(&:titleize).join(",")
     # Limits each set to 160 charactes, which is the SMS limit
     char_limit_regex = /[\w, =]{1,160}(?:,|$)/
     conference_rooms.scan(char_limit_regex).map(&:strip)
