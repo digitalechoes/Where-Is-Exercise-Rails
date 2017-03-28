@@ -2,12 +2,17 @@
   .row
     .col-md-12
       %h1 TCS where_is simulator
-      - if @response
+      - if  local_assigns[:result]
         %h2 Previous query
-        %p= @response.first
+        %p= query
         %h3 Response
-        %p= @response.last
-        %h2 New query
+        - if result.is_a?(Array)
+          %ul
+            - result.each do |room|
+              %li= room
+        - else
+          %p= result
+          %h2 New query
       = form_tag root_path do
         .form-group
           = text_field_tag :query
